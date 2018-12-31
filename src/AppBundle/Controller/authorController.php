@@ -80,8 +80,7 @@ class authorController extends FOSRestController
         //works
     }
     
-   /**
-    * @Rest\DELETE("/authors/{id}")
-    * I DIDNT UNDERSTAND IT CUZ IT TOLD "TO Make sure annotations are installed and enabled" ITRIED TO RECOMPOSER SensioFrameworkExtraBundle BUT NO RESULT I NEED IT 
-    */
+  
+    //I DIDNT UNDERSTAND IT CUZ IT TOLD "TO Make sure annotations are installed and enabled" ITRIED TO RECOMPOSER SensioFrameworkExtraBundle BUT NO RESULT I NEED IT 
+    
 }

@@ -94,9 +94,26 @@ class livreController extends FOSRestController
         return $result;
         //workks
     }
- /**
-    * @Rest\DELETE("/livres/{id}")
-    * I DIDNT UNDERSTAND IT CUZ IT TOLD "TO Make sure annotations are installed and enabled" ITRIED TO RECOMPOSER SensioFrameworkExtraBundle BUT NO RESULT I NEED IT 
-    */
+ //I DIDNT UNDERSTAND IT CUZ IT TOLD "TO Make sure annotations are installed and enabled" ITRIED TO RECOMPOSER SensioFrameworkExtraBundle BUT NO RESULT I NEED IT 
+     /**
+     * @Rest\Delete("/livres/{id}")
+     */
+
+  //  public function delAction(Request $request, $id)
+  //  {
+
+   //     $em = $this->getDoctrine()->getManager();
+   //     $book = $em->getRepository(livre::class)->find($id);
+   //     $em->remove($book);
+   //     $em->flush();
+//
+   //     return new View(" Successfully Deleted !!!", Response::HTTP_ACCEPTED);
+//
+   // }
+
+
+
+
+     
    
 }
